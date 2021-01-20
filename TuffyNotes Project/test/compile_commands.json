@@ -1,0 +1,17 @@
+[
+ {
+ "directory" : "/home/student/Desktop/cpsc121/Project/project-06-akeminamba",
+ "command" : "clang++ -std=c++17 tuffynotes.cpp -o tuffynotes",
+ "file" : "/home/student/Desktop/cpsc121/Project/project-06-akeminamba/tuffynotes.cpp"
+ },
+ {
+ "directory" : "/home/student/Desktop/cpsc121/Project/project-06-akeminamba",
+ "command" : "clang++ -std=c++17 notebook.cpp -o tuffynotes",
+ "file" : "/home/student/Desktop/cpsc121/Project/project-06-akeminamba/notebook.cpp"
+ },
+ {
+ "directory" : "/home/student/Desktop/cpsc121/Project/project-06-akeminamba",
+ "command" : "clang++ -std=c++17 notebook.hpp -o tuffynotes",
+ "file" : "/home/student/Desktop/cpsc121/Project/project-06-akeminamba/notebook.hpp"
+ },
+]

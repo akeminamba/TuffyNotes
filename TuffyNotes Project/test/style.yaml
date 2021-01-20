@@ -1,0 +1,93 @@
+---
+MainSourceFile:  /home/student/Desktop/cpsc121/Project/project-06-akeminamba/notebook.cpp
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'invalid operands to binary expression (''const char *'' and ''std::string'' (aka ''basic_string<char>''))'
+    FileOffset:      642
+    FilePath:        ./notebook.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'use of undeclared identifier ''title'''
+    FileOffset:      332
+    FilePath:        notebook.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'use of undeclared identifier ''body'''
+    FileOffset:      339
+    FilePath:        notebook.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'out-of-line definition of ''display'' does not match any declaration in ''EncryptedNote'''
+    FileOffset:      893
+    FilePath:        notebook.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'out-of-line definition of ''list'' does not match any declaration in ''Notebook'''
+    FileOffset:      1272
+    FilePath:        notebook.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         '''this'' argument to member function ''list'' has type ''const Notebook'', but function is not marked const'
+    FileOffset:      1659
+    FilePath:        notebook.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'use of undeclared identifier ''save_file'''
+    FileOffset:      2077
+    FilePath:        notebook.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'use of undeclared identifier ''file_name''; did you mean ''filename''?'
+    FileOffset:      2092
+    FilePath:        notebook.cpp
+    Replacements:    
+      - FilePath:        notebook.cpp
+        Offset:          2092
+        Length:          9
+        ReplacementText: filename
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'use of undeclared identifier ''save_file'''
+    FileOffset:      2106
+    FilePath:        notebook.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'use of undeclared identifier ''save_file'''
+    FileOffset:      2174
+    FilePath:        notebook.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'use of undeclared identifier ''save_file'''
+    FileOffset:      2217
+    FilePath:        notebook.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'out-of-line definition of ''load'' does not match any declaration in ''Notebook'''
+    FileOffset:      2318
+    FilePath:        notebook.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'no member named ''ignored'' in ''std::basic_ifstream<char>'''
+    FileOffset:      2458
+    FilePath:        notebook.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'invalid operands to binary expression (''const char *'' and ''std::string'' (aka ''basic_string<char>''))'
+    FileOffset:      642
+    FilePath:        notebook.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'invalid operands to binary expression (''const char *'' and ''std::string'' (aka ''basic_string<char>''))'
+    FileOffset:      642
+    FilePath:        notebook.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'too few arguments to function call, single argument ''filename'' was not specified'
+    FileOffset:      1096
+    FilePath:        tuffynotes.cpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'no member named ''load'' in ''Notebook'''
+    FileOffset:      1679
+    FilePath:        tuffynotes.cpp
+    Replacements:    
+...
